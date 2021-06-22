@@ -7,19 +7,19 @@ sidebar:
   education: False # NO MODIFICAR
 
   # Profile information
-  name: My Full Name # Nombre completo
-  tagline: React Native Mobile Developer # React Native Mobile Developer ó Ruby on Rails Web Developer Según sea el caso
+  name: Martín Salvador Gaytán Lugo # Nombre completo
+  tagline: Ruby on Rails Web Developer # React Native Mobile Developer ó Ruby on Rails Web Developer Según sea el caso
   avatar: profile.png # Colocar una imagen con tu foto de 100x100 pixels dentro de /assets/images
 
   # Actualiza tus datos de contacto
-  email: name@brightcoders.com
-  phone:
+  email: martingaytan.lugo@gmail.com
+  phone: 313 329 8040
   website: # No agregar http://
-  linkedin: brightcoders
-  github: brightcoders
+  linkedin: linkedin.com/in/msgaytanlugo
+  github: https://github.com/Chavin30
   gitlab:
   bitbucket:
-  twitter: '@BrightCoders'
+  twitter: '@GaytanChavin'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -27,13 +27,10 @@ sidebar:
   # Actualiza según los idiomas y nieles que tienes. Agrega o Elimina según sea necesario.
   languages:
     - idiom: English
-      level: Fluent # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
+      level: B1 # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
 
     - idiom: Spanish
       level: Native # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
-
-    - idiom: German
-      level: Colloquial
 
   # Registra aquí tus soft skills. Agrega o elimina según sea necesario
   interests:
@@ -45,72 +42,63 @@ sidebar:
 
     - item: Time Management
       link: # dejar en blanco
+    
+    - item: Problem Solving
+      link: # dejar en blanco
+
+    - item: Creativity
+      link: # dejar en blanco
 
 # Registra aquí un resumen de tu perfil
 career-profile:
   title: About Me # NO MODIFICAR
   summary: |
-    Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Proin purus ligula, posuere semper est sed, pretium elementum massa. Duis et orci sed nunc. Maecenas at egestas mi. Nulla id augue a lectus condimentum scelerisque vitae sed dui.
+    I'm a web developer with one year of experience creating and implementing websites thourgh PHP and JavaScripts frameworks. I'm passinate about technologies and I'm willing to learn new ones to keep growing.
 
 # Registra aquí tus estudios. Agrega o elimina según sea necesario
 educationcomplete:
-  - degree: Applied Scientist full-time at AWS
-    university: Germany
-    time: 2020 Oct - current
+  - degree: Master in Computer Systems
+    university: Tecnológico de Colima
+    time: 2018 - 2020
+    details: |
+      Planning, analysis, design and implementing computer applications for web
+      
+        - Web technologies
+        - Software Engineering
+
+  - degree: Mechanical and Electrical Enginnering
+    university: Universidad de Colima
+    time: 2006 - 2011
     details: |
 
-  - degree: PhD in Computer vision and Machine learning
-    university: Heidelberg University
-    time: 2015 - 2020
-    details: |
-      Unsupervised deep learning for automatic behavior analysis
-
-        - Unsupervised learning
-        - Representaion learning
-        - Automatic Behavior Analysis
-
-  - degree: Internship (Master Thesis)
-    university: Tobii
-    time: 2014 - 2015
-    details: |
-      Master thesis topic Hand gesture classification by Deep learning using infrared camera 
-
-        - Deep learning
-        - Hand Gesture
-
-  - degree: Bachelor Degree
-    university: Politecnico di Torino (Torino, Italy)
-    time: 2009 - 2012
-    details: |
-      Master degree in Computer Engineering
+        - Operation and design electric nets
+        - Management electromechanical projects
+        - Designing of energetic projects
 
 # Registra aquí tu experiencia. Agrega o elimina según sea necesario
 experiences:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Full Stack Web Developer (Freelance)
+    time: 2021 (4 months)
+    company: Antonio Barbosa Heldt T.M. (SEP)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      Developed a Web system to manage the students’ data.
+        - http://directorio-abh.herokuapp.com
+        - https://github.com/Chavin30/directorio 
 
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+  - role: Informatics Teacher
+    time: 2012 - 2021
+    company: Antonio Barbosa Heldt T.M. (SEP)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+      
+        - Computational Thinking for Middle Schoolers
+        - Technical Support
+
+  - role: Web Developer Intership
+    time: 2019 - 2020
+    company: Dirección de Catastro del Estado de Colima
+    details: |
+      I lead the design and development of the Geoportal Catastral Web System
+        - http://rppccolima.col.gob.mx:8000/geoportal/vc
 
 # Registra aquí tus habilidades técnicas, para level utiliza:
 # 20% para Novice
@@ -122,22 +110,22 @@ skills:
   title: Technical Skills # NO MODIFICAR
 
   toolset:
-    - name: Python
-      level: 20%
-
-    - name: PyTorch
-      level: 40%
-
-    - name: Tensorflow
+    - name: PHP (Laravel 8, CodeIgniter 3)
       level: 60%
 
-    - name: Caffe
-      level: 80%
+    - name: JavaScript (jQuery)
+      level: 60%
 
-    - name: Matlab
-      level: 100%
+    - name: JavaScript (LeafLet, Livewire)
+      level: 40%
 
-    - name: C/C++
+    - name: CSS (Bootstrap, Tailwind)
+      level: 40%
+
+    - name: MySQL, PostgreSQL, GeoServer
+      level: 40%
+
+    - name: Git, Github
       level: 40%
 
 # NO MODIFICAR
